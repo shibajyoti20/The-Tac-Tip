@@ -1,0 +1,40 @@
+.navbar-wrapper{
+    width: 90%;
+    margin: auto;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-wrapper{
+    width: 30%;
+    display: flex;
+}
+.Logo{
+    width: 30px;
+    object-fit: contain;
+}
+
+.Name{
+    width: 100px;
+    object-fit: contain;
+    margin-left: 8px;
+}
+
+.list-wrapper{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav-link{
+    color: black ;
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+

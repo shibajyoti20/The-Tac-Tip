@@ -1,0 +1,36 @@
+.hero-wrapper{
+    width: 45%;
+    margin-left: 15%;
+}
+
+.header-wrapper{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+}
+.header-content{
+    width: 100%;
+}
+
+.subheader-wrapper{
+    font-style: italic;
+    text-align: left;
+    font-size: 18px;
+    padding: 18px 0px;
+}
+
+.submit-btn{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 8px 25px;
+    border-radius: 12px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
