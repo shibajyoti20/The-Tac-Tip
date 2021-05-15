@@ -1,0 +1,19 @@
+.process-wrapper{
+    width: 100%;
+    padding: 60px 0px;
+}
+.process-card-wrapper{
+    width : 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 440px){
+    .process-card-wrapper{
+        width : 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
