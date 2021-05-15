@@ -34,3 +34,40 @@
     letter-spacing: 2px;
 }
 
+@media screen and (max-width: 440px){
+    .hero-wrapper{
+        width: 85%;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .header-wrapper{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .subheader-wrapper{
+        width: 270px;
+        margin-left: 30px;
+        font-size: 14px;
+        padding: 18px 0px;
+    }
+    .submit-btn{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+}
+@media screen and (max-width: 375px){
+    .hero-wrapper{
+        width: 80%;
+    }
+    .header-wrapper{
+        margin-left: 0;
+    }
+    .subheader-wrapper{
+        margin-left: 0;
+    }
+    .submit-btn{
+        margin-left: 0;
+    }
+}

@@ -1,13 +1,20 @@
 .catalogue-wrapper{
     width: 100%;
     background-image: url(../../static/images/catImage.png);
-    animation: animate 10s infinite;
-    background-size: contain;
+    /* animation: animate 10s infinite; */
+    background-size: cover;
     background-repeat: no-repeat;
     height: 20vh;
+    overflow-x: hidden;
+    margin-top: 20px;
 
 }
-.catalogue-wrapper::before{
+@media screen and (max-width: 440px){
+    .catalogue-wrapper{
+        height: 15vh;
+    }
+}
+/* .catalogue-wrapper::before{
     width: 100%;
     background-image: url(../../static/images/catImage.png);
     animation: animate2 10s infinite;
@@ -15,13 +22,13 @@
     background-repeat: no-repeat;
     height: 20vh;
     content: "";
-}
+} */
 /* .catalogue-wrapper>img{
     width: 100%;
     object-fit: contain;
 } */
 
-@keyframes animate
+/* @keyframes animate
 {
     0%
     {
@@ -31,9 +38,9 @@
     {
         background-position: 1360px;
     }
-}
+} */
 
-@keyframes animate2
+/* @keyframes animate2
 {
     0%
     {
@@ -43,4 +50,4 @@
     {
         background-position: 0%;
     }
-}
+} */
