@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionHeader from '../../components/SectionHeader/SectionHeader';
 import BenefitBlock from '../../components/BenefitBlock/BenefitBlock';
-import details from '../../components/CardDetails';
+import details from '../../components/SiteData';
 
 function Reviews(){
     return (

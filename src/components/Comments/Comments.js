@@ -1,7 +1,6 @@
 import React from 'react';
 import './Comments.css';
-import CardDetails from '../CardDetails';
-import details from '../CardDetails';
+import details from '../SiteData';
 
 
 function Comments()

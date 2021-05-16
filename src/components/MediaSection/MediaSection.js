@@ -11,7 +11,7 @@ function MediaSection()
         <div className="media-wrapper">
             <div className="line1">
                 Share with your freinds.
-                <img src={share} className="social" alt="share-image"/>
+                <img src={share} className="social" alt="share-icon"/>
             </div>
             <div className="line2">
                 Follow us on 

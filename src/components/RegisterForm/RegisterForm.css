@@ -41,6 +41,7 @@
     border-radius: 50rem;
     padding: 10px;
     padding-left: 20px;
+    color: #faf5f5;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
@@ -62,7 +63,7 @@ select:-webkit-autofill:focus{
 }
 .form-control:focus{
     background-color: #1f1f1f;
-    color: #8f8f8f;
+    color: #e2d8d8;
 }
 #msg{
     border-radius: 5px;
