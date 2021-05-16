@@ -1,0 +1,36 @@
+.carousel-wrapper{
+    width: 40%;
+    margin: auto;
+}
+
+
+.comments-author{
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: rgb(248, 233, 233);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.comments-wrapper{
+    width: 60%;
+    margin: auto;
+}
+
+.comments-desc{
+    text-transform: capitalize;
+    width: 90%;
+    margin: auto;
+    color: #b3a5a5;
+    font-size: 20px;
+  
+}
+
+@media screen and (max-width : 440px){
+    .carousel-wrapper{
+        width: 90%;
+    }
+}

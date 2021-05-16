@@ -1,0 +1,57 @@
+.media-wrapper{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.line1{
+    color: #f8e9e9;
+    font-style: italic;
+}
+
+.line2{
+    color: #f8e9e9;
+    font-style: italic;
+    margin: 30px 0;
+}
+
+.social{
+    width: 3%;
+    object-fit: contain;
+    margin: 0 30px;
+}
+
+.fb{
+    width: 1.5%;
+    object-fit: contain;
+}
+
+@media screen and (max-width : 440px)
+{
+    .media-wrapper{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .line1{
+        color: #f8e9e9;
+        font-style: italic;
+    }
+    
+    .line2{
+        color: #f8e9e9;
+        font-style: italic;
+        margin: 30px 0;
+    }
+
+    .social{
+        width: 5%;
+        object-fit: contain;
+        margin: 0 30px;
+    }
+    
+    .fb{
+        width: 3%;
+        object-fit: contain;
+    }
+}

@@ -1,10 +1,15 @@
 import React from 'react';
-import Carousel from '../../components/Carousel/Carousel';
+import SectionHeader from '../../components/SectionHeader/SectionHeader';
+import BenefitBlock from '../../components/BenefitBlock/BenefitBlock';
+import details from '../../components/CardDetails';
 
 function Reviews(){
     return (
         <React.Fragment>
-            <Carousel/>
+            <SectionHeader htext={"why choose us?"} spacing={"100px"}/>
+            {details.BenefitBlock.map(item => (
+                <BenefitBlock BlockText={item.block}/>
+            ))}
         </React.Fragment>
     );
 }

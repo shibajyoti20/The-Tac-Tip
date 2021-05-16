@@ -45,7 +45,29 @@ let details = {
         type and scrambled it to make a type specimen 
         book.
         `
-    }
+    },
+
+    BenefitBlock:[
+        {block:'Get your doubts solved by verified experts in the field.'},
+        {block:'Save your time by getting the solutions directly from experts instead of searching them on the internet.'},
+        {block:'We will try to solve you doubts and make you understand through any feasible medium.'},
+        {block:'It is a complete free service.'}
+    ],
+
+    Comments:[
+        {   
+            'carousel-header':'Rajiv',
+            'carousel-desc':'this is rajiv from pakistan'
+        },
+        {
+            'carousel-header':'Shiba',
+            'carousel-desc':'this is shibajyoti das,i am a wannabe GOD!'
+        },
+        {
+            'carousel-header':'Rittik',
+            'carousel-desc':'this is rittik dasgupta,i am a wannabe CLOWN!'
+        }
+    ]
 }
 
 

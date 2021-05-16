@@ -1,0 +1,23 @@
+.block-wrapper{
+    width: 80%;
+    background-color: #262626;
+    border-radius: 50rem;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color: blanchedalmond;
+    margin: 30px auto;
+}
+
+@media screen and (max-width:440px)
+{
+    .block-wrapper{
+        width: 95%;
+        height: 13vh;
+        margin: 30px auto;
+        font-size: 15px;
+        padding: 10px 15px;
+    }  
+}

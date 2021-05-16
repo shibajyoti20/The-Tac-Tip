@@ -1,0 +1,43 @@
+.section-wrapper{
+    color: #e2dada;
+    width: 40%;
+    margin: auto;
+}
+
+
+.form-wrapper{
+    width: 90%;
+    margin: 45px auto;
+}
+
+
+.form-btn{
+    
+    background-color: #02e7a3;
+    color: black;
+    padding: 8px 40px;
+    border: 1px solid transparent;
+    border-radius: 50rem;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input-field{
+    border-radius: 10rem;
+}
+
+@media  screen and (max-width : 440px) {
+    .section-wrapper{
+        color: #e2dada;
+        width: 90%;
+        margin: auto;
+    }
+
+    .form-wrapper{
+        width: 100%;
+        margin: 40px auto;
+    }
+}

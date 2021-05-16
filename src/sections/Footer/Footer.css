@@ -1,0 +1,46 @@
+.footer-wrapper{
+    background-color: #52CBDC;
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    padding-bottom: 170px;
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.logo{
+    margin-top: 14px;
+    width: 3%;
+}
+
+.name{
+    width: 6%;
+    margin: 12px 0;
+}
+
+@media screen and (max-width : 440px)
+{
+    .footer-wrapper{
+        background-color: #52CBDC;
+        width: 100%;
+        height: 18vh;
+        margin: auto;
+        padding-bottom: 150px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+    
+    .logo{
+        margin-top: 14px;
+        width: 8%;
+    }
+    
+    .name{
+        width: 20%;
+        margin: 8px 0;
+    }
+}

@@ -5,5 +5,13 @@
     text-align: center;
     letter-spacing: 5px;
     font-weight: 500;
-    margin-bottom: 50px;
+    width: 60%;
+    margin: 50px auto;
+}
+
+@media screen and (max-width:440px)
+{
+    .section-header{
+        width: 90%;
+    }
 }
