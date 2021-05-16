@@ -2,8 +2,8 @@ import pimg from '../static/images/process1.png';
 import pimg2 from '../static/images/process2.png';
 import pimg3 from '../static/images/process3.png';
 import pimg4 from '../static/images/process4.png';
-import design from '../static/images/Design.png';
-import develop from '../static/images/Develop.png';
+import design from '../static/images/design.png';
+import develop from '../static/images/develop.png';
 
 let details = {
     captions : {
@@ -33,9 +33,7 @@ let details = {
         standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of 
         type and scrambled it to make a type specimen 
-        book. It has survived not only five centuries, 
-        but also the leap into electronic typesetting, 
-        remaining essentially unchanged.
+        book.
         `,
         'ddesc2' : 
         `
@@ -45,9 +43,7 @@ let details = {
         standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of 
         type and scrambled it to make a type specimen 
-        book. It has survived not only five centuries, 
-        but also the leap into electronic typesetting, 
-        remaining essentially unchanged.
+        book.
         `
     }
 }

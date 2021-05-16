@@ -7,7 +7,7 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 function Process(){
     return(
         <div className="process-wrapper">
-            <SectionHeader htext={"Process"} />
+            <SectionHeader htext={"Process"} spacing={"0px"}/>
             
             <div className="process-card-wrapper">
                 

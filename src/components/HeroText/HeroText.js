@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroText.css';
-
+import {Link} from 'react-router-dom';
 
 function HeroText()
 {
@@ -14,9 +14,11 @@ function HeroText()
                 Contact our team of experts, clear all your doubts, and solve all
                  your problems. Together, Let's crack it!
             </div>
-            <button className="submit-btn">
-                Register
-            </button>
+            <Link to="/register">
+                <button className="submit-btn">
+                    Register
+                </button>
+            </Link>
         </div>
     );
 }

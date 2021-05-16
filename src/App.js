@@ -1,17 +1,19 @@
 import './App.css';
-import Banner from './sections/Banner/Banner';
-import Services from './sections/Services/Services';
-import Domains from './sections/Domains/Domains';
-import Reviews from './sections/Reviews/Reviews';
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import RegisterPage from './pages/RegisterPage/RegisterPage';
 
 function App() {
   return (
-    <div className="App">
-      <Banner/>
-      <Services/>
-      <Domains/>
-      <Reviews/>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/register" component={RegisterPage} />
+        </Switch>
+      </div>
+    </Router>
+
   );
 }
 
