@@ -12,7 +12,7 @@ function RegisterCard(){
             </div>
             <div className='registercard-right'>
                 <div className="registercard-header">
-                    <img src={logo} alt="thetactip-logo" className="logo"/>
+                    <img src={logo} alt="thetactip-logo" className="tlogo"/>
                     <div className="name">TheTacTip</div>
                 </div>
                 <RegisterForm />
