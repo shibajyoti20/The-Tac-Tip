@@ -28,7 +28,7 @@ function Navbar()
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                         <img src={BrandLogo} className="Logo" alt="BrandLogo"/>
                         <img src={BrandName} className="Name" alt="BrandName"/>
                     </a>
@@ -41,10 +41,10 @@ function Navbar()
                     <div className="collapse navbar-collapse" id="navbarNav" style={{"width":"40%"}}>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
+                                <a className="nav-link" href="/about">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <a className="nav-link" href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>

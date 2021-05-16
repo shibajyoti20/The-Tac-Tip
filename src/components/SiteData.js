@@ -6,6 +6,9 @@ import design from '../static/images/design.png';
 import develop from '../static/images/develop.png';
 
 let details = {
+
+    "registerUrl" : "https://docs.google.com/forms/u/0/d/e/1FAIpQLScoRcUfdrf7TjQN3wk1GADIWvFG1OjpMWVRq022gPggs75Ptw/formResponse",
+
     captions : {
         "RegisterCaption" : "Register by filling the form",
         "VerifyCaption" : "You will get a message from",

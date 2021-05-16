@@ -1,6 +1,6 @@
 import React from 'react';
 import './Process.css';
-import details from '../CardDetails';
+import details from '../SiteData';
 import ProcessCard from '../ProcessPrototype/ProcessCard';
 import SectionHeader from '../SectionHeader/SectionHeader';
 

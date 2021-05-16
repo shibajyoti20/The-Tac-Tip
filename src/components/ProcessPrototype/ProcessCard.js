@@ -8,7 +8,7 @@ function Process({ CardHeader, CardImage, CardCaption }){
                 { CardHeader }
             </div>
             <div className="card-image">
-                <img src={ CardImage } alt="process image" />
+                <img src={ CardImage } alt="process-of-registration" />
             </div>
             <div className="card-caption">
                 {  CardCaption }
