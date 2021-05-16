@@ -3,7 +3,7 @@ import './Domains.css';
 import SectionHeader from '../../components/SectionHeader/SectionHeader';
 import Catalogue from '../../components/ServicesCatalogue/Catalogue';
 import DomainCard from '../../components/DomainCard/DomainCard';
-import details from '../../components/CardDetails';
+import details from '../../components/SiteData';
 
 function Domains(){
     return(

@@ -1,5 +1,6 @@
 import React from 'react';
 import './DomainCard.css';
+import {Link} from 'react-router-dom';
 
 function DomainCard({dhead, dtext, dimg}){
     return(
@@ -11,9 +12,11 @@ function DomainCard({dhead, dtext, dimg}){
                 <div className="domaincard-desc">
                     { dtext }
                 </div>
-                <button className="domaincard-btn">
-                    Register
-                </button>
+                <Link to="/register">
+                    <button className="domaincard-btn">
+                        Register
+                    </button>
+                </Link>
             </div>
             <div className='domaincard-right'>
                 <img src={dimg} alt="domain-img" />

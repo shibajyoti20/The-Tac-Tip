@@ -1,5 +1,7 @@
 import React from 'react';
 import './RegisterForm.css';
+import details from '../SiteData';
+
 function RegisterForm(){
 
     const[uname, setUname] = React.useState('');
@@ -10,28 +12,64 @@ function RegisterForm(){
 
     const[activeTab, setActiveTab] = React.useState(0);
 
+    const SubmitHandler = (e) => {
+        e.preventDefault();
+        const formUrl = details.registerUrl;
+        fetch(formUrl,{
+            method: "POST",
+            mode: "no-cors",
+            header:{
+                'Content-Type': 'application/json'
+                },
+            body: getInputData()
+        })
+        .then(data=>{
+            alert("Thank You For Registering");
+        })
+        .catch(err=>console.error(err)); //promise based
+    }
+    function getInputData(){
+        let dataToPost = new FormData(); //formdata API
+
+        //fill name attributes to corresponding values
+        dataToPost.append("entry.1981860985" , uname);
+        dataToPost.append("entry.848792246" , email);
+        dataToPost.append("entry.34711981" , mobile);
+        dataToPost.append("entry.635069527" , domain);
+        dataToPost.append("entry.2139896364" , message);
+
+        return dataToPost;
+      }
+
     return(
-        <form id="register-ms-form" autoComplete="off">
+        <form id="register-ms-form" autoComplete="off"
+        method="POST"
+        action={details.registerUrl}
+        onSubmit={SubmitHandler}
+        >
             <div className={activeTab === 0 ? "f-tab" : "f-tab hidden"}>
-                <div class="form-group">
+                <div className="form-group">
                     <h3 style={{color: "#ececec"}}>Welcome</h3>
                 </div>
                 <div className="form-group">
-                    <input type="text" className="form-control" name="uname"
+                    <input type="text" className="form-control" 
+                    name="entry.1981860985"
                     placeholder="Name" 
                     onChange = {e => setUname(e.target.value)}
                     value={uname}
                     required />
                 </div>
                 <div className="form-group">
-                    <input type="email" className="form-control" name="email"
+                    <input type="email" className="form-control" 
+                    name="entry.848792246"
                     placeholder="Email" 
                     onChange = {e => setEmail(e.target.value)}
                     value={email}
                      />
                 </div>
                 <div className="form-group">
-                    <input type="tel" className="form-control" name="mobile"
+                    <input type="tel" className="form-control" 
+                    name="entry.34711981"
                     placeholder="Phone number" 
                     onChange = {e => setMobile(e.target.value)}
                     value={mobile}
@@ -49,17 +87,18 @@ function RegisterForm(){
             </div>
             <div className={activeTab === 1 ? "f-tab" : "f-tab hidden"}>
                 <div className="form-group">
-                    <select class="form-select" name="domain"
+                    <select className="form-select" name="entry.635069527"
                     onChange = {e => setDomain(e.target.value)}
                     value={domain}>
-                        <option selected>Domain</option>
-                        <option value="1">Domain 1</option>
-                        <option value="2">Domain 2</option>
-                        <option value="3">Domain 3</option>
+                        <option defaultValue>Domain</option>
+                        <option value="Domain 1">Domain 1</option>
+                        <option value="Domain 2">Domain 2</option>
+                        <option value="Domain 3">Domain 3</option>
                     </select>
                 </div>
                 <div className="form-group">
-                    <textarea className="form-control" id="msg" name="message" rows={6} 
+                    <textarea className="form-control" id="msg" 
+                    name="entry.2139896364" rows={6} 
                     placeholder="Message"
                     onChange = {e => setMessage(e.target.value)}
                     value={message}/>
@@ -72,7 +111,7 @@ function RegisterForm(){
                     }>
                         Previous
                     </button>
-                    <button className="next">
+                    <button type="submit" className="next">
                         Submit
                     </button>
                 </div>
