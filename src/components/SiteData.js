@@ -30,23 +30,21 @@ let details = {
 
     domainsDesc : {
         'ddesc1' : 
-        `Lorem Ipsum is simply dummy text of 
-        the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's 
-        standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of 
-        type and scrambled it to make a type specimen 
-        book.
+        `Ask doubts related to GRAPHIC DESIGN, MOTION GRAPHICS, 
+        3D MODELLING and learn about the ins and outs 
+        of designing and the use of different tricks and tools 
+        from our experienced designers and editors. Clear all your 
+        doubts and learn market secrets from them and hack your career.
+        
         `,
         'ddesc2' : 
         `
-        Lorem Ipsum is simply dummy text of 
-        the printing and typesetting industry.
-        Lorem Ipsum has been the industry's 
-        standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of 
-        type and scrambled it to make a type specimen 
-        book.
+        Ask doubts related to various coding languages, development platforms, 
+        tools, APIs as well as services.
+        Debug with the help of an expert.
+        Personalize your learning experience..
+        Get answers to complex problems
+         
         `
     },
 
