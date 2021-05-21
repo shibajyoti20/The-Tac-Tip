@@ -25,6 +25,11 @@ function RegisterForm(){
         })
         .then(data=>{
             alert("Thank You For Registering");
+            setUname('');
+            setEmail('');
+            setMobile('');
+            setDomain('');
+            setMessage('');
         })
         .catch(err=>console.error(err)); //promise based
     }
@@ -65,6 +70,7 @@ function RegisterForm(){
                     placeholder="Email" 
                     onChange = {e => setEmail(e.target.value)}
                     value={email}
+                    required
                      />
                 </div>
                 <div className="form-group">
@@ -88,7 +94,7 @@ function RegisterForm(){
             <div className={activeTab === 1 ? "f-tab" : "f-tab hidden"}>
                 <div className="form-group">
                     <select className="form-select" name="entry.635069527"
-                    onChange = {e => setDomain(e.target.value)}
+                    onChange = {e => setDomain(e.target.value)} required
                     value={domain}>
                         <option defaultValue>Domain</option>
                         <option value="Domain 1">Domain 1</option>
@@ -101,7 +107,7 @@ function RegisterForm(){
                     name="entry.2139896364" rows={6} 
                     placeholder="Message"
                     onChange = {e => setMessage(e.target.value)}
-                    value={message}/>
+                    value={message} required/>
                 </div>
                 <div className="form-group ms-form-btn-grp">
                     <button className="previous" onClick={(e) => {

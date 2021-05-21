@@ -59,16 +59,39 @@ let details = {
 
     Comments:[
         {   
-            'carousel-header':'Rajiv',
-            'carousel-desc':'this is rajiv from pakistan'
+            'carousel-header':'Rishav Jain',
+            'carousel-desc':`
+            Impressive! How fast my problem got solved, 
+            what I was searching in youtube for hours got solved in a few minutes.
+            `
         },
         {
-            'carousel-header':'Shiba',
-            'carousel-desc':'this is shibajyoti das,i am a wannabe GOD!'
+            'carousel-header':'Bicky Tamang',
+            'carousel-desc':`
+            Very well qualified experts. He understood my 
+            problem and gave an easy explanation for the solution.
+            `
         },
         {
-            'carousel-header':'Rittik',
-            'carousel-desc':'this is rittik dasgupta,i am a wannabe CLOWN!'
+            'carousel-header':'Preety Tiwari',
+            'carousel-desc':`
+            The expert was amazing, will come back again.
+            `
+        },
+        {
+            'carousel-header':'Pratik kumar',
+            'carousel-desc':`
+            My Expert answered my question promptly and he resolved 
+            the issue totally. This is a great service. 
+            I am so glad I found it I will definitely use the 
+            service again if needed.
+            `
+        },
+        {
+            'carousel-header':'Vedant Singh',
+            'carousel-desc':`
+            My problem got solved. Thanks !
+            `
         }
     ]
 }

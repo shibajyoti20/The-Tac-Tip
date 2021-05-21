@@ -50,25 +50,28 @@
 }
 @media screen and (max-width: 440px){
     .domaincard-wrapper{
-        width: 95%;
+        width: 90%;
         text-overflow:ellipsis;
     }
     .domaincard-left{
-        padding-top: 20px;
-        padding-left: 30px;
+        width: 100%;
+        margin: auto;
+        padding: 40px 30px;
+    }
+    .domaincard-right{
+        display: none;
+    }
+    .domaincard-desc{
+        width: 100%;
     }
     .domaincard-header{
         font-size: 25px;
         font-weight: 700;
     }
-    .domaincard-desc{
-        display: none;
-    }
     .domaincard-btn{
         padding: 5px 15px;
         margin-top: 6vh;
-        margin-left: 0;
-        margin-right: 100%;
+        margin-right: 0%;
         font-size: 12px;  
     }
 }

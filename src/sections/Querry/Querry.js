@@ -7,7 +7,7 @@ function Querry()
 {
     return (
         <React.Fragment>
-            <SectionHeader htext={"couldn't find your desired domain?Let us know"} spacing={"150px"}/>
+            <SectionHeader htext={"couldn't find your desired domain?Let us know"} spacing={"80px"}/>
             <QuerryForm/>
         </React.Fragment>
     );
