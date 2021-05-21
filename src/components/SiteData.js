@@ -7,7 +7,7 @@ import develop from '../static/images/develop.png';
 
 let details = {
 
-    "registerUrl" : "https://docs.google.com/forms/u/0/d/e/1FAIpQLScoRcUfdrf7TjQN3wk1GADIWvFG1OjpMWVRq022gPggs75Ptw/formResponse",
+    "registerUrl" : "https://docs.google.com/forms/u/4/d/e/1FAIpQLSegHbTHrOzzqgYiV1x834y89pGuK8DKUGmqh_SCwy5LMmPPEQ/formResponse",
 
     captions : {
         "RegisterCaption" : "Register by filling the form",

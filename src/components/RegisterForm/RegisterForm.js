@@ -32,14 +32,14 @@ function RegisterForm(){
         let dataToPost = new FormData(); //formdata API
 
         //fill name attributes to corresponding values
-        dataToPost.append("entry.1981860985" , uname);
-        dataToPost.append("entry.848792246" , email);
-        dataToPost.append("entry.34711981" , mobile);
-        dataToPost.append("entry.635069527" , domain);
-        dataToPost.append("entry.2139896364" , message);
+        dataToPost.append("entry.888186195" , uname);
+        dataToPost.append("entry.163301334" , email);
+        dataToPost.append("entry.1245754527" , mobile);
+        dataToPost.append("entry.1516007880" , domain);
+        dataToPost.append("entry.1462981909" , message);
 
         return dataToPost;
-      }
+    }
 
     return(
         <form id="register-ms-form" autoComplete="off"
